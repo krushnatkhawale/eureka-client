@@ -12,7 +12,7 @@ jobs:
       contents: read
       packages: write
     steps:
-      - name: Checkout project sources
+      - name: Checkout project source code
         uses: actions/checkout@v4
       - name: Setup java version 17
         uses: actions/setup-java@v4
