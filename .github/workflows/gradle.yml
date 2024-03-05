@@ -24,5 +24,7 @@ jobs:
         run: java --version
       - name: Setup Gradle
         uses: gradle/gradle-build-action@v2
+      - name: List files
+        run: ls -ltr
       - name: Run build with Gradle Wrapper
         run: ./gradlew build
